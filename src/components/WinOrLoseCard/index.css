@@ -108,3 +108,21 @@
   justify-content: center;
   order: 0;
 }
+
+@media screen and (min-width: 992px) {
+  .image-section {
+    order: 1;
+  }
+}
+
+.win-or-lose-image {
+  width: 150px;
+  height: 200px;
+}
+
+@media screen and (min-width: 992px) {
+  .win-or-lose-image {
+    width: 350px;
+    height: 450px;
+  }
+}
